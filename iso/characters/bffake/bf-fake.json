@@ -1,0 +1,177 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "ConBF Idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "ConBF Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-1
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "ConBF Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				-3
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "ConBF Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				-1
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "ConBF Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "ConBF Hey",
+			"indices": []
+		},
+		{
+			"offsets": [
+				3,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "ConBF Alt Down"
+		},
+		{
+			"offsets": [
+				12,
+				29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "ConBF Alt Up"
+		},
+		{
+			"offsets": [
+				-5,
+				-8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "ConBF Alt Right"
+		},
+		{
+			"offsets": [
+				-3,
+				-2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "AUGH",
+			"indices": [],
+			"name": "ConBF AUGH"
+		},
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "First Laugh",
+			"indices": [],
+			"name": "ConBF First Laugh"
+		},
+		{
+			"offsets": [
+				-4,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Laugh Loop",
+			"indices": [],
+			"name": "ConBF Laugh Loop"
+		},
+		{
+			"offsets": [
+				-5,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Giggle",
+			"indices": [],
+			"name": "ConBF Giggle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "ConBF Alt Left",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Cellmate",
+	"position": [
+		-40,
+		160
+	],
+	"healthicon": "fakebf-win",
+	"flip_x": false,
+	"healthbar_colors": [
+		209,
+		47,
+		48
+	],
+	"camera_position": [
+		0,
+		130
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

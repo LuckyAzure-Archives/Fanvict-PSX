@@ -24,13 +24,53 @@
 			"fnfanim" : "singUP",
 			"imgname" : "up",
 			"hname"   : "Up"
+		},
+		{
+			"fnfanim" : "singLEFT-alt",
+			"imgname" : "leftalt",
+			"hname"   : "LeftAlt"
+		},
+		{
+			"fnfanim" : "singDOWN-alt",
+			"imgname" : "downalt",
+			"hname"   : "DownAlt"
+		},
+		{
+			"fnfanim" : "singRIGHT-alt",
+			"imgname" : "rightalt",
+			"hname"   : "RightAlt"
+		},
+		{
+			"fnfanim" : "singUP-alt",
+			"imgname" : "upalt",
+			"hname"   : "UpAlt"
+		},
+		{
+			"fnfanim" : "AUGH",
+			"imgname" : "augh",
+			"hname"   : "Augh"
+		},
+		{
+			"fnfanim" : "First Laugh",
+			"imgname" : "firstlaugh",
+			"hname"   : "FirstLaugh"
+		},
+		{
+			"fnfanim" : "Laugh Loop",
+			"imgname" : "laughloop",
+			"hname"   : "LaughLoop"
+		},
+		{
+			"fnfanim" : "Giggle",
+			"imgname" : "giggle",
+			"hname"   : "Giggle"
 		}
 	],
-	"input":  "iso/characters/niku/niku",
-	"outdir": "iso/characters/niku/",
-	"charname" : "Niku",
+	"input":  "iso/characters/bf-fake/bf-fake",
+	"outdir": "iso/characters/bf-fake/",
+	"charname" : "BFFake",
 	"optimize" : false,
-	"optimizename" : "Aldryx",
+	"optimizename" : "BFFake",
 	"arcname" : "ArcMain",
 	"vrampos" : [
 		448, 
@@ -40,7 +80,7 @@
 	],
 
 	"bpp" : 4,
-	"resize" : 0.18,
+	"resize" : 0.25,
 	"xmlscale" : 1.0,
 	"padding" : 1,
 	"max_width" : 256,

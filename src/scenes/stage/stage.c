@@ -3,6 +3,7 @@
 #include "../../characters/bf/bf.h"
 
 //Opponents
+#include "../../characters/bffake/bffake.h"
 #include "../../characters/dad/dad.h"
 
 //Stages

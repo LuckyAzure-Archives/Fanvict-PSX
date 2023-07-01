@@ -7,6 +7,7 @@ SRCS = src/main.c \
        src/characters/bf/bflow.c \
 	   \
        src/characters/dad/dad.c \
+       src/characters/bffake/bffake.c \
 	   \
        src/characters/gf/gf.c \
        src/characters/gf/speaker.c \
