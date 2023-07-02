@@ -8,12 +8,14 @@ SRCS = src/main.c \
 	   \
        src/characters/dad/dad.c \
        src/characters/bffake/bffake.c \
+       src/characters/convict/convict.c \
 	   \
        src/characters/gf/gf.c \
        src/characters/gf/speaker.c \
 	   \
        src/stages/default/default.c \
        src/stages/default/defaultlow.c \
+       src/stages/fake/fake.c \
 	   \
        src/scenes/menu/menu.c \
        src/scenes/menu/options.c \

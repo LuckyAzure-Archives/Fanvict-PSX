@@ -42,6 +42,7 @@
 			<dir name = "stages">
 				<!-- Background art -->
 				<file name = "default.arc" type = "data" source = "iso/stages/default/back.arc"/>
+				<file name = "fake.arc" type = "data" source = "iso/stages/fake/back.arc"/>
 			</dir>
 			
 			<!-- Characters assets -->
@@ -53,6 +54,7 @@
 				<!-- Dad assets -->
 				<file name = "dad.arc" type = "data" source = "iso/characters/dad/main.arc"/>
 				<file name = "bffake.arc" type = "data" source = "iso/characters/bffake/main.arc"/>
+				<file name = "convict.arc" type = "data" source = "iso/characters/convict/main.arc"/>
 				
 				<!-- Girlfriend assets -->
 				<file name = "gf.arc" type = "data" source = "iso/characters/gf/main.arc"/>

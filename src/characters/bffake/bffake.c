@@ -118,6 +118,9 @@ static const Animation char_bffake_anim[CharAnim_Max] = {
 	{18, (const u8[]){ 23, 24, 25, 26, 27,  ASCR_BACK, 1}},		//CharAnim_UpAlt
 	{12, (const u8[]){ 11, 12,  ASCR_BACK, 1}},		//CharAnim_Right
 	{18, (const u8[]){ 28, 29, 30, 31,  ASCR_BACK, 1}},		//CharAnim_RightAlt
+	{0, (const u8[]){ASCR_CHGANI, CharAnim_Idle}},		//CharAnim_Special1
+	{0, (const u8[]){ASCR_CHGANI, CharAnim_Idle}},		//CharAnim_Special2
+	{0, (const u8[]){ASCR_CHGANI, CharAnim_Idle}},		//CharAnim_Special3
 
 };
 
@@ -164,7 +167,7 @@ void Char_BFFake_Free(Character *character)
 	Mem_Free(this->arc_main);
 }
 
-Character *Char_BFFake_New(fixed_t x, fixed_t y)
+Character *Char_BFFake_New(fixed_t x, fixed_t y, fixed_t scale)
 {
 	//Allocate bffake object
 	Char_BFFake *this = Mem_Alloc(sizeof(Char_BFFake));
@@ -195,7 +198,7 @@ Character *Char_BFFake_New(fixed_t x, fixed_t y)
 	this->character.focus_y = FIXED_DEC(-90,1);
 	this->character.focus_zoom = FIXED_DEC(100,100);
 	
-	this->character.size = FIXED_DEC(100,100);
+	this->character.size = FIXED_MUL(FIXED_DEC(100,100),scale);
 	
 	//Load art
 	this->arc_main = IO_Read("\\CHAR\\BFFAKE.ARC;1");

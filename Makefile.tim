@@ -4,12 +4,14 @@ all: \
 	\
 	iso/characters/dad/main.arc \
 	iso/characters/bffake/main.arc \
+	iso/characters/convict/main.arc \
 	\
 	iso/characters/gf/main.arc \
 	iso/characters/gf/tut.arc \
 	iso/characters/gf/speaker.tim \
 	\
 	iso/stages/default/back.arc \
+	iso/stages/fake/back.arc \
 	\
 	iso/characters/icons.tim \
 	iso/images/menu/menu.arc \
@@ -40,5 +42,11 @@ iso/characters/gf/tut.arc: iso/characters/gf/tut0.tim iso/characters/gf/tut1.tim
 # Default
 iso/stages/default/back.arc: iso/stages/default/back0.tim iso/stages/default/back1.tim
 
+# Fake
+iso/stages/fake/back.arc: iso/stages/fake/0.tim iso/stages/fake/1.tim
+
 # BFFake
 iso/characters/bffake/main.arc: iso/characters/bffake/idle0.tim iso/characters/bffake/idle1.tim iso/characters/bffake/idle2.tim iso/characters/bffake/idle3.tim iso/characters/bffake/idle4.tim iso/characters/bffake/left0.tim iso/characters/bffake/left1.tim iso/characters/bffake/down0.tim iso/characters/bffake/down1.tim iso/characters/bffake/right0.tim iso/characters/bffake/right1.tim iso/characters/bffake/up0.tim iso/characters/bffake/up1.tim iso/characters/bffake/leftalt0.tim iso/characters/bffake/leftalt1.tim iso/characters/bffake/leftalt2.tim iso/characters/bffake/leftalt3.tim iso/characters/bffake/leftalt4.tim iso/characters/bffake/downalt0.tim iso/characters/bffake/downalt1.tim iso/characters/bffake/downalt2.tim iso/characters/bffake/downalt3.tim iso/characters/bffake/downalt4.tim iso/characters/bffake/rightalt0.tim iso/characters/bffake/rightalt1.tim iso/characters/bffake/rightalt2.tim iso/characters/bffake/rightalt3.tim iso/characters/bffake/upalt0.tim iso/characters/bffake/upalt1.tim iso/characters/bffake/upalt2.tim iso/characters/bffake/upalt3.tim iso/characters/bffake/upalt4.tim iso/characters/bffake/augh0.tim iso/characters/bffake/augh1.tim iso/characters/bffake/augh2.tim iso/characters/bffake/augh3.tim iso/characters/bffake/augh4.tim iso/characters/bffake/augh5.tim iso/characters/bffake/augh6.tim iso/characters/bffake/augh7.tim iso/characters/bffake/augh8.tim iso/characters/bffake/augh9.tim iso/characters/bffake/augh10.tim iso/characters/bffake/augh11.tim iso/characters/bffake/augh12.tim iso/characters/bffake/augh13.tim iso/characters/bffake/firstlaugh0.tim iso/characters/bffake/firstlaugh1.tim iso/characters/bffake/firstlaugh2.tim iso/characters/bffake/firstlaugh3.tim iso/characters/bffake/firstlaugh4.tim iso/characters/bffake/firstlaugh5.tim iso/characters/bffake/firstlaugh6.tim iso/characters/bffake/firstlaugh7.tim iso/characters/bffake/firstlaugh8.tim iso/characters/bffake/firstlaugh9.tim iso/characters/bffake/firstlaugh10.tim iso/characters/bffake/firstlaugh11.tim iso/characters/bffake/firstlaugh12.tim iso/characters/bffake/laughloop0.tim iso/characters/bffake/laughloop1.tim iso/characters/bffake/laughloop2.tim iso/characters/bffake/laughloop3.tim iso/characters/bffake/giggle0.tim iso/characters/bffake/giggle1.tim iso/characters/bffake/giggle2.tim iso/characters/bffake/giggle3.tim 
+
+# Convict
+iso/characters/convict/main.arc: iso/characters/convict/idle0.tim iso/characters/convict/idle1.tim iso/characters/convict/idle2.tim iso/characters/convict/idle3.tim iso/characters/convict/idle4.tim iso/characters/convict/idle5.tim iso/characters/convict/idle6.tim iso/characters/convict/idle7.tim iso/characters/convict/idle8.tim iso/characters/convict/idle9.tim iso/characters/convict/idle10.tim iso/characters/convict/left0.tim iso/characters/convict/left1.tim iso/characters/convict/left2.tim iso/characters/convict/left3.tim iso/characters/convict/left4.tim iso/characters/convict/left5.tim iso/characters/convict/down0.tim iso/characters/convict/down1.tim iso/characters/convict/down2.tim iso/characters/convict/down3.tim iso/characters/convict/down4.tim iso/characters/convict/down5.tim iso/characters/convict/up0.tim iso/characters/convict/up1.tim iso/characters/convict/up2.tim iso/characters/convict/up3.tim iso/characters/convict/up4.tim iso/characters/convict/up5.tim iso/characters/convict/right0.tim iso/characters/convict/right1.tim iso/characters/convict/right2.tim iso/characters/convict/right3.tim iso/characters/convict/right4.tim iso/characters/convict/right5.tim iso/characters/convict/laugh0.tim iso/characters/convict/laugh1.tim iso/characters/convict/laugh2.tim iso/characters/convict/laugh3.tim iso/characters/convict/laugh4.tim 
