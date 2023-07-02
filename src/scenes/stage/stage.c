@@ -1231,7 +1231,7 @@ static void Stage_LoadChart(void)
 	else
 	{
 		//Use standard path convention
-		sprintf(chart_path, "\\SONGS\\%d.%d%c.CHT;1", stage.stage_def->week, stage.stage_def->week_song, "ENH"[stage.stage_diff]);
+		sprintf(chart_path, "\\SONGS\\%d.%d.CHT;1", stage.stage_def->week, stage.stage_def->week_song);
 	}
 	
 	if (stage.chart_data != NULL)

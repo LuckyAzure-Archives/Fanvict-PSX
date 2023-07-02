@@ -11,20 +11,13 @@ static const XA_TrackDef xa_tracks[] = {
 	{XA_Menu, XA_LENGTH(11300)}, //XA_GettinFreaky
 	{XA_Menu, XA_LENGTH(3800)},  //XA_GameOver
 	//1.XA
-	{XA_1, XA_LENGTH(7700)}, //XA_Bopeebo
-	{XA_1, XA_LENGTH(8000)}, //XA_Fresh
-	//2.XA
-	{XA_2, XA_LENGTH(8700)}, //XA_Dadbattle
-	{XA_2, XA_LENGTH(6800)}, //XA_Tutorial
-	//3.XA
-	{XA_3, XA_LENGTH(10700)}, //XA_Blammed
+	{XA_1, XA_LENGTH(12933)}, //XA_Bopeebo
+	{XA_1, XA_LENGTH(15905)}, //XA_Fresh
 };
 
 static const char *xa_paths[] = {
 	"\\MUSIC\\MENU.XA;1",   //XA_Menu
 	"\\MUSIC\\1.XA;1", //XA_Week1A
-	"\\MUSIC\\2.XA;1", //XA_Week1B
-	"\\MUSIC\\3.XA;1", //XA_Week3A
 	NULL,
 };
 

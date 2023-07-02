@@ -52,6 +52,7 @@
 				
 				<!-- Dad assets -->
 				<file name = "dad.arc" type = "data" source = "iso/characters/dad/main.arc"/>
+				<file name = "bffake.arc" type = "data" source = "iso/characters/bffake/main.arc"/>
 				
 				<!-- Girlfriend assets -->
 				<file name = "gf.arc" type = "data" source = "iso/characters/gf/main.arc"/>
@@ -62,24 +63,8 @@
 			<!-- Songs -->
 			<dir name = "songs">
 				<!-- Bopeebo charts -->
-				<file name = "1.1e.cht" type = "data" source = "iso/songs/bopeebo/bopeebo-easy.json.cht"/>
-				<file name = "1.1n.cht" type = "data" source = "iso/songs/bopeebo/bopeebo.json.cht"/>
-				<file name = "1.1h.cht" type = "data" source = "iso/songs/bopeebo/bopeebo-hard.json.cht"/>
-				<!-- Fresh charts -->
-				<file name = "1.2e.cht" type = "data" source = "iso/songs/fresh/fresh-easy.json.cht"/>
-				<file name = "1.2n.cht" type = "data" source = "iso/songs/fresh/fresh.json.cht"/>
-				<file name = "1.2h.cht" type = "data" source = "iso/songs/fresh/fresh-hard.json.cht"/>
-				<!-- Dadbattle charts -->
-				<file name = "1.3e.cht" type = "data" source = "iso/songs/dadbattle/dadbattle-easy.json.cht"/>
-				<file name = "1.3n.cht" type = "data" source = "iso/songs/dadbattle/dadbattle.json.cht"/>
-				<file name = "1.3h.cht" type = "data" source = "iso/songs/dadbattle/dadbattle-hard.json.cht"/>
-				<!-- Tutorial charts -->
-				<file name = "1.4e.cht" type = "data" source = "iso/songs/tutorial/tutorial-easy.json.cht"/>
-				<file name = "1.4n.cht" type = "data" source = "iso/songs/tutorial/tutorial.json.cht"/>
-				<file name = "1.4h.cht" type = "data" source = "iso/songs/tutorial/tutorial-hard.json.cht"/>
-
-				<!-- Blammed charts -->
-				<file name = "2.1h.cht" type = "data" source = "iso/songs/blammed/blammed.json.cht"/>
+				<file name = "1.1.cht" type = "data" source = "iso/songs/manipulator/manipulator.cht"/>
+				<file name = "1.2.cht" type = "data" source = "iso/songs/tremors/tremors.cht"/>
 			</dir>
 			
 			<!-- Music -->
@@ -88,12 +73,6 @@
 				<dummy sectors="128"/>
 				
 				<file name = "1.xa" type = "xa" source = "iso/songs/1.xa"/>
-				<dummy sectors="128"/>
-				
-				<file name = "2.xa" type = "xa" source = "iso/songs/2.xa"/>
-				<dummy sectors="128"/>
-				
-				<file name = "3.xa" type = "xa" source = "iso/songs/3.xa"/>
 				<dummy sectors="128"/>
 			</dir>
 			

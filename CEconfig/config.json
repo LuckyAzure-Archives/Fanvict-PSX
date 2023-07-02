@@ -8,7 +8,10 @@
 		"CharAnim_Up",
 		"CharAnim_UpAlt",
 		"CharAnim_Right",
-		"CharAnim_RightAlt"
+		"CharAnim_RightAlt",
+		"CharAnim_Special1",
+		"CharAnim_Special2",
+		"CharAnim_Special3"
 	],
 	"PlayerAnim": [
 		"CharAnim_Idle", 
@@ -20,6 +23,9 @@
 		"CharAnim_UpAlt", 
 		"CharAnim_Right", 
 		"CharAnim_RightAlt",
+		"CharAnim_Special1",
+		"CharAnim_Special2",
+		"CharAnim_Special3",
 		"PlayerAnim_LeftMiss",
 		"PlayerAnim_DownMiss",
 		"PlayerAnim_UpMiss",

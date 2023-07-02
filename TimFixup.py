@@ -1,12 +1,20 @@
 from PIL import Image, ImageFilter
-import glob
+import os
+
 import shutil
 
-QUEUE_LENGTH     = 16
 DMA_CHUNK_LENGTH = 16
-#iso/character/tim files
 
-path = glob.glob('iso/characters/*/*.png')
+#iso/character/tim files
+dapaths = []
+thisdir = os.getcwd()
+for r, d, f in os.walk(thisdir + "/iso"): 
+    for file in f:
+        filepath = os.path.join(r, file)
+        if '.png' and not '.png.txt' in file:
+            newpathfile = os.path.join(r, file)
+            if (newpathfile.endswith('.png')):
+                dapaths.append(newpathfile)
 
 #calculate if the image is a multiple of 16
 def recalc(width, height, bpp):
@@ -32,16 +40,25 @@ def writetex(path):
     new_image.paste(tex)
     new_image.save(path)
 
-for curpath in path:
+for curpath in dapaths: 
     tex = Image.open(curpath)
 
     bpp = 0
     with open(curpath + '.txt', 'r') as file:
+        if not file.closed:
+            print("opened file "+ curpath + '.txt')
+        else:
+            print("failed to open file "+ curpath + '.txt')
+            continue
         bpp = file.read()
         bpp.strip()
         bppstr = ''.join(bpp.split('\n'))
         bpp = bppstr
-        bpp = bpp[-1] 
+        if bpp[-1] == ' ':
+            bpp = bpp[-2]
+        else:
+            bpp = bpp[-1]
+
 
     realwidth = tex.size[0]
     realheight = tex.size[1]
